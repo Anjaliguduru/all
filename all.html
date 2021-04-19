@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://ilyashussain07.github.io/incomingp/bg-li-gd.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="./all.css">  
+   
+    <title>all</title>
+    <style>
+       .bg-cover{
+           background-image: url(./iStock.jpg);
+           background-size: cover;
+           
+       }
+      
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron mt-5 jumbotron bg-cover ">
+            <form>
+              
+                <div class="row">
+                    <div class="col">
+                        <p class="text-white">find Intrest here</p>
+                        <input type="text" class="form-control" id="amount" placeholder=" Enter amount " >
+                        <br>
+                        <input type="text" class="form-control" id="rate" placeholder="Enter rate" >
+                        <br>
+
+                        <input type="text" class="form-control" id="time" placeholder="Enter time" >
+                         <br>
+                         <button onclick="return find()">find interest</button>
+                         <br>
+                         <br>
+                        
+                        <input type="text" class="form-control" id="output" placeholder="output" disabled>
+                        
+
+
+
+                    </div>
+                    <div class="col ">
+                        <p class="text-white">find percentage here</p>
+                        <input type="text" class="form-control" id="txt1" placeholder="Enter a value" >
+                        <br>
+                        <input type="text" class="form-control" id="txt2" placeholder="Enter total value" >
+            
+                         <br>
+                         <button onclick="return percentage()">find percentage</button>
+                         <br>
+                         <br>
+                        <input type="text" class="form-control" id="result" placeholder="output" disabled >
+
+                    </div>
+                    <div class="col ">
+                        <p class="text-white">find num is even or not here</p>
+                        <input type="text" class="form-control" id="abc" placeholder="Enter a value" >
+                        <br>
+                         <button onclick="return odd()">find even or not</button>
+                         <br>
+                         <br>
+                        <input type="text" class="form-control" id="out-put" placeholder="out-put" disabled >
+
+                    </div>
+                        
+                </div>
+               
+                   
+                 
+            </form> 
+        </div>
+
+    </div>
+
+
+
+
+    <script src="all.js"></script>
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
